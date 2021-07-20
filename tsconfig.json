@@ -33,6 +33,6 @@
     "node_modules",
     "dist",
     "examples",
-    "*.test.ts"
+    "src/**/*.test.ts"
   ]
 }
