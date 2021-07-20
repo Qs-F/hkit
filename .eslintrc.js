@@ -76,7 +76,10 @@ module.exports = {
     react: {
       version: 'detect',
     },
-    'import/resolver': 'parcel',
+    'import/resolver': {
+      typescript: {},
+      // parcel: {},
+    },
   },
   overrides: [
     {
