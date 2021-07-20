@@ -1,0 +1,38 @@
+{
+  "name": "hookskit",
+  "version": "0.0.1",
+  "description": "Kit for React Hooks",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "git@github.com:Qs-F/hookskit.git",
+  "author": "Qs-F <qsf@de-liker.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rimraf dist/*",
+    "lint": "eslint --ext .ts,.tsx ./src && tsc --noEmit",
+    "fmt": "eslint --fix --ext .ts,.tsx ./src"
+  },
+  "dependencies": {
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@testing-library/react-hooks": "^7.0.1",
+    "@types/node": "^16.3.3",
+    "@types/react": "^17.0.14",
+    "@typescript-eslint/eslint-plugin": "^4.28.4",
+    "@typescript-eslint/parser": "^4.28.4",
+    "eslint": "^7.31.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "prettier": "^2.3.2",
+    "react-dom": "^17.0.2",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.3.5"
+  }
+}
