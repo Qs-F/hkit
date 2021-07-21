@@ -6,9 +6,10 @@
       "dom.iterable",
       "esnext"
     ],
-    "noEmit": true,
     "allowJs": true,
     "declaration": true,
+    "emitDeclarationOnly": false,
+    "outDir": "dist",
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
@@ -30,7 +31,8 @@
   ],
   "exclude": [
     "node_modules",
-    "dist",
-    "examples"
+    "dist/**/*",
+    "examples",
+    "src/**/*.test.ts"
   ]
 }
