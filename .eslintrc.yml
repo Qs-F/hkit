@@ -1,4 +1,4 @@
-env: 
+env:
   browser: true
   es6: true
   node: true
@@ -14,26 +14,26 @@ extends:
   - "plugin:import/errors"
   - "plugin:import/warnings"
 
-globals: 
+globals:
   Atomics: readonly
   SharedArrayBuffer: readonly
 
 parser: "@typescript-eslint/parser"
-parserOptions: 
-  ecmaFeatures: 
+parserOptions:
+  ecmaFeatures:
     jsx: true
   ecmaVersion: 2018
   sourceType: "module"
 
-plugins: 
+plugins:
   - "react"
   - "@typescript-eslint"
 
-rules: 
+rules:
   object-curly-spacing:
     - 2
     - always
-  semi: 
+  semi:
     - error
     - never
   quote-props:
@@ -70,18 +70,17 @@ rules:
           position: "after"
       alphabetize:
         order: "asc"
-        caseInsensitive: true 
+        caseInsensitive: true
 
-settings: 
-  react: 
+settings:
+  react:
     version: "detect"
-  import/resolver: 
+  import/resolver:
     typescript: {}
     # parcel: {}
-  
 
 overrides:
   - files:
     - "*.d.ts"
-    rules: 
+    rules:
       "@typescript-eslint/no-explicit-any": "off"
