@@ -9,7 +9,7 @@
     "allowJs": true,
     "declaration": true,
     "emitDeclarationOnly": false,
-    "outDir": "dist",
+    "outDir": "dist/",
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
