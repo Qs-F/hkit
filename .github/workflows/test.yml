@@ -39,7 +39,7 @@ jobs:
           yarn test
 
   test-publish:
-    name: test
+    name: test-publish
     runs-on: ubuntu-latest
     defaults:
       run:
