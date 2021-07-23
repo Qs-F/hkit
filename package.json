@@ -1,6 +1,6 @@
 {
   "name": "hookskit",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Kit for React Hooks",
   "repository": "git@github.com:Qs-F/hookskit.git",
   "author": "Qs-F <qsf@de-liker.com>",
@@ -15,7 +15,7 @@
     "build": "microbundle --tsconfig tsconfig.build.json && tsc-alias -p tsconfig.build.json",
     "dev": "microbundle watch --tsconfig tsconfig.build.json & tsc-alias --watch -p tsconfig.build.json",
     "test": "jest",
-    "test:publish": "cd examples/basic && yarn build",
+    "test:publish": "cd examples/basic && yarn && yarn build",
     "clean": "rimraf dist/*",
     "lint": "eslint --ext .ts,.tsx ./src && tsc --noEmit",
     "fmt": "eslint --fix --ext .ts,.tsx ./src"
