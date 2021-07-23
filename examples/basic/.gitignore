@@ -1,6 +1,7 @@
 .DS_Store
 .parcel-cache
 public
+.yalc
 
 # Logs
 logs

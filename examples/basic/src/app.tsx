@@ -7,7 +7,7 @@ export const App: FC = () => {
   const { state, increment } = useExample()
   return (
     <Fragment>
-      <p onClick={() => increment}>{state}</p>
+      <p onClick={() => increment()}>{state}</p>
     </Fragment>
   )
 }
