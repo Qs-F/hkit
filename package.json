@@ -12,10 +12,11 @@
   "exports": "./dist/index.modern.js",
   "types": "./dist/export.d.ts",
   "scripts": {
+    "prebuild": "yarn clean",
     "build": "microbundle --tsconfig tsconfig.build.json && tsc-alias -p tsconfig.build.json",
     "dev": "microbundle watch --tsconfig tsconfig.build.json & tsc-alias --watch -p tsconfig.build.json",
     "test": "jest",
-    "test:publish": "cd examples/basic && yarn && yarn build",
+    "test:publish": "yarn build && cd examples/basic && yarn && yarn build",
     "clean": "rimraf dist/*",
     "lint": "eslint --ext .ts,.tsx ./src && tsc --noEmit",
     "fmt": "eslint --fix --ext .ts,.tsx ./src"
