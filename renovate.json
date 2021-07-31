@@ -1,5 +1,19 @@
 {
   "extends": [
     "config:base"
+  ],
+  "packageRules": [{
+      "matchPackagePatterns": [
+        "*"
+      ],
+      "rangeStrategy": "pin"
+    },
+    {
+      "matchDepTypes": [
+        "engines",
+        "peerDependencies"
+      ],
+      "rangeStrategy": "auto"
+    }
   ]
 }
