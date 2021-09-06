@@ -2,7 +2,7 @@
   "version": "v1",
   "packages": {
     "hookskit": {
-      "signature": "3dc857ffb3c5431f9cf7cb2cccc7a5a4",
+      "signature": "fc627c0bcef8242c2238d5d76d9c3ee3",
       "replaced": "file:../../"
     }
   }
