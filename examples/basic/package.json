@@ -1,5 +1,5 @@
 {
-  "name": "lkit.dr-0x.com",
+  "name": "lkit",
   "version": "0.0.1",
   "main": "dist/index.html",
   "repository": "git@github.com:Qs-F/lkit.git",
@@ -9,13 +9,20 @@
     "predev:yalc:publish": "yalc publish ../../",
     "predev:yalc:update": "yalc update",
     "predev:": "run-s predev:**",
-    "dev": "parcel src/index.html --open",
+    "dev": "vite",
+    "clean": "rimraf dist/*",
+    "prebuild:clean": "rimraf ./dist",
     "prebuild:yalc:publish": "yalc publish ../../",
     "prebuild:yalc:update": "yalc update",
-    "prebuild:clean": "rimraf ./dist",
     "prebuild": "run-s prebuild:**",
-    "build": "parcel build src/index.html --no-source-maps",
-    "fmt": "prettier ./src --write"
+    "build:tsc": "tsc",
+    "build:js": "vite build",
+    "build": "run-p build:**",
+    "serve": "vite preview",
+    "lint:eslint": "eslint --ext .ts,.tsx ./src",
+    "lint:tsc": "tsc",
+    "lint": "run-p lint:**",
+    "fmt": "eslint --ext .ts,.tsx --fix . ./src"
   },
   "inline": true,
   "browserslist": {
@@ -31,33 +38,32 @@
     ]
   },
   "devDependencies": {
-    "@types/node": "14.17.5",
-    "@types/react": "17.0.14",
+    "@types/node": "14.17.15",
+    "@types/react": "17.0.20",
     "@types/react-dom": "17.0.9",
     "@types/react-router-dom": "5.1.8",
-    "npm-run-all": "^4.1.5",
-    "parcel-bundler": "1.12.5",
-    "prettier": "2.3.2",
-    "rimraf": "^3.0.2",
-    "typescript": "4.3.5",
+    "@typescript-eslint/eslint-plugin": "4.31.0",
+    "@typescript-eslint/parser": "4.31.0",
+    "@vitejs/plugin-react-refresh": "1.3.6",
+    "eslint": "7.32.0",
+    "eslint-config-google": "0.14.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-import-resolver-typescript": "2.4.0",
+    "eslint-plugin-import": "2.24.2",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-react": "7.25.1",
+    "npm-run-all": "4.1.5",
+    "prettier": "2.4.0",
+    "rimraf": "3.0.2",
+    "typescript": "4.4.3",
+    "vite": "2.5.6",
     "yalc": "^1.0.0-pre.53"
   },
   "dependencies": {
-    "@emotion/react": "11.4.0",
     "hookskit": "link:.yalc/hookskit",
+    "@emotion/react": "11.4.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-router-dom": "5.2.0"
-  },
-  "_options": {
-    "scripts": {
-      "postbuild": "react-snap"
-    },
-    "devDependencies": {
-      "react-snap": "^1.23.0"
-    },
-    "reactSnap": {
-      "source": "dist/"
-    }
+    "react-router-dom": "5.3.0"
   }
 }
