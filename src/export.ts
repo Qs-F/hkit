@@ -1,2 +1,2 @@
-export * from '/example'
-export * from '/value'
+export { useExample } from '/example'
+export { INITIAL_VALUE } from '/value'
