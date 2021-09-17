@@ -1,5 +1,3 @@
-/** @jsx jsx */
-import { jsx } from '@emotion/react'
 import { FC } from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import { hydrate, render } from 'react-dom'
