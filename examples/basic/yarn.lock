@@ -361,6 +361,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@qs-f/hookskit@link:.yalc/@qs-f/hookskit":
+  version "0.0.0"
+  uid ""
+
 "@rollup/pluginutils@^4.1.1":
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/@rollup/pluginutils/-/pluginutils-4.1.1.tgz#1d4da86dd4eded15656a57d933fda2b9a08d47ec"
@@ -1372,9 +1376,6 @@ hoist-non-react-statics@^3.1.0, hoist-non-react-statics@^3.3.1:
   integrity sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==
   dependencies:
     react-is "^16.7.0"
-
-"hookskit@link:.yalc/hookskit":
-  version "0.0.0"
 
 hosted-git-info@^2.1.4:
   version "2.8.9"

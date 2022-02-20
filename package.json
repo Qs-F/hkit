@@ -1,5 +1,5 @@
 {
-  "name": "hookskit",
+  "name": "@qs-f/hookskit",
   "version": "0.1.0",
   "description": "Kit for React Hooks",
   "repository": "git@github.com:Qs-F/hookskit.git",
@@ -15,7 +15,7 @@
     "prebuild": "yarn clean",
     "build:js": "microbundle --tsconfig tsconfig.build.json",
     "build:d.ts": "tsc-alias -p tsconfig.build.json",
-    "build": "run-p build:*",
+    "build": "run-s build:*",
     "dev:js": "microbundle watch --tsconfig tsconfig.build.json",
     "dev:d.ts": "tsc-alias --watch -p tsconfig.build.json",
     "dev": "run-p dev:*",
