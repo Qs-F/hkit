@@ -6,7 +6,7 @@
   "author": "Qs-F <qsf@de-liker.com>",
   "license": "MIT",
   "source": "./src/export.ts",
-  "main": "./dist/index.cjs",
+  "main": "./dist/index.js",
   "module": "./dist/index.module.js",
   "unpkg": "./dist/index.umd.js",
   "exports": "./dist/index.modern.js",
