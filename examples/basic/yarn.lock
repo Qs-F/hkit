@@ -361,7 +361,7 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@qs-f/hookskit@link:.yalc/@qs-f/hookskit":
+"@qs-f/hookskit@link:.yalc/@qs-f/hkit":
   version "0.0.0"
   uid ""
 
