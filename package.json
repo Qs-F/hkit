@@ -6,11 +6,14 @@
   "author": "Qs-F <qsf@de-liker.com>",
   "license": "MIT",
   "source": "./src/export.ts",
-  "main": "./dist/index.js",
+  "main": "./dist/index.cjs",
   "module": "./dist/index.module.js",
   "unpkg": "./dist/index.umd.js",
   "exports": "./dist/index.modern.js",
   "types": "./dist/export.d.ts",
+  "files": [
+    "/dist"
+  ],
   "scripts": {
     "prebuild": "yarn clean",
     "build:js": "microbundle --tsconfig tsconfig.build.json",
