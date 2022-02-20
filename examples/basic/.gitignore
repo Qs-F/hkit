@@ -2,6 +2,7 @@
 .parcel-cache
 public
 .yalc
+yalc.lock
 
 # Logs
 logs
