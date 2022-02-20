@@ -1,4 +1,4 @@
-# pkg `hookskit`
+# kit `hkit`
 
 Kit for React Hooks Library
 

@@ -1,8 +1,8 @@
 {
-  "name": "@qs-f/hookskit",
+  "name": "@qs-f/hkit",
   "version": "0.1.0",
   "description": "Kit for React Hooks",
-  "repository": "git@github.com:Qs-F/hookskit.git",
+  "repository": "git@github.com:Qs-F/hkit.git",
   "author": "Qs-F <qsf@de-liker.com>",
   "license": "MIT",
   "source": "./src/export.ts",
