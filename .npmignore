@@ -1,7 +1,8 @@
 *
 */
 
-!.package.json
-!LICENSE
-!README.md
-!dist/*
+!./package.json
+!./yarn.lock
+!./LICENSE
+!./README.md
+!./dist/*
