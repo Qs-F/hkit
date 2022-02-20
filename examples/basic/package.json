@@ -1,5 +1,5 @@
 {
-  "name": "lkit",
+  "name": "@creatorqsf/lkit",
   "version": "0.0.1",
   "main": "dist/index.html",
   "repository": "git@github.com:Qs-F/lkit.git",
@@ -13,6 +13,7 @@
     "clean": "rimraf dist/*",
     "prebuild:clean": "rimraf ./dist",
     "prebuild:yalc:publish": "yalc publish ../../",
+    "prebuild:yalc:link": "yalc link hkit",
     "prebuild:yalc:update": "yalc update",
     "prebuild": "run-s prebuild:**",
     "build:tsc": "tsc",
