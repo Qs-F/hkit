@@ -10,7 +10,7 @@
     "allowJs": true,
 
     "declaration": true,
-    "emitDeclarationOnly": false,
+    "emitDeclarationOnly": true,
 
     "strict": true,
     "noUnusedLocals": true,
