@@ -6355,10 +6355,10 @@ ts-node@10.5.0:
     v8-compile-cache-lib "^3.0.0"
     yn "3.1.1"
 
-tsc-alias@1.6.1:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/tsc-alias/-/tsc-alias-1.6.1.tgz#f4199dc9f2c847c816131bf4b13203d2ac853221"
-  integrity sha512-cvnfvm1eFmLcVOidGmSRS0iTjoPxT5DZMnZmD1ZWHSkda8EAm+00uD7Zs/OCblo0l+AEluCdAG+qP7sZf475FA==
+tsc-alias@1.6.3:
+  version "1.6.3"
+  resolved "https://registry.yarnpkg.com/tsc-alias/-/tsc-alias-1.6.3.tgz#5129d4b4ef7d26734e0ecb7054258ca558d31864"
+  integrity sha512-G3gLtvmiI/s6q9VKWGgFu0cnQW06rT/9BZPV0k+9AzDsVkpQRP9dy9UQqeblXuakta5xN5ByqFzzalAd7ZRq2Q==
   dependencies:
     chokidar "^3.5.3"
     commander "^9.0.0"
