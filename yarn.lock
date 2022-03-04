@@ -1173,10 +1173,10 @@
   dependencies:
     "@cspotcode/source-map-consumer" "0.8.0"
 
-"@de-liker/drts@0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@de-liker/drts/-/drts-0.1.4.tgz#e891dac87d59e52826ceb533a01c3400cf76f086"
-  integrity sha512-uUnx4uDKq7SmVYGMLPMcgR2K83u2subr4GsW4Hl8enzIn7qDvxtomaIfybfg0WweQYbeCmr8Paq4YuGbMrHU/w==
+"@de-liker/drts@0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@de-liker/drts/-/drts-0.1.5.tgz#2dd516308580cea0b1ef42d6e9f6c74cc18175dd"
+  integrity sha512-sjPoLfvKYkj3rhPzv3qHqrsyDUq7rnIbw6LHlneKq98dcyDX/SPosLuL+aQhwGV72KqlQlt8OlspfgdmQYffiw==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^5.12.0"
     "@typescript-eslint/parser" "^5.12.0"
