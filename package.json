@@ -40,7 +40,7 @@
   "devDependencies": {
     "@de-liker/drts": "0.1.8",
     "@jest/globals": "27.5.1",
-    "@testing-library/react-hooks": "7.0.2",
+    "@testing-library/react-hooks": "8.0.0",
     "@types/jest": "27.4.1",
     "@types/node": "16.11.26",
     "@types/react": "17.0.44",
