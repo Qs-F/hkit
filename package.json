@@ -54,6 +54,6 @@
     "ts-jest": "27.1.5",
     "ts-node": "10.8.0",
     "tsc-alias": "1.6.9",
-    "typescript": "4.7.3"
+    "typescript": "4.7.4"
   }
 }
