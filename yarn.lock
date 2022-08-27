@@ -1168,10 +1168,10 @@
   dependencies:
     "@jridgewell/trace-mapping" "0.3.9"
 
-"@de-liker/drts@0.1.11":
-  version "0.1.11"
-  resolved "https://registry.yarnpkg.com/@de-liker/drts/-/drts-0.1.11.tgz#ac27290afe9dc76df59add3688bec1452ae24c28"
-  integrity sha512-7fEFzVCz2LmREtc0ZHulPljt8R5aE1CQNMWo4oLzHmQsa+HzRDADXlHwgLcY34AbKai6q0gucYVElWPMDLUJVg==
+"@de-liker/drts@0.1.12":
+  version "0.1.12"
+  resolved "https://registry.yarnpkg.com/@de-liker/drts/-/drts-0.1.12.tgz#0c1e0842959517acb44fba02b6cd5b139aea339f"
+  integrity sha512-rWtQPBQ/OEPOg3e+Cn0RG0tGnpnLa+wokXBmzySYl28ndi86MVJENycjVO1KyojrnTLhJt4v+K+vmKrxtAqS9w==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^5.12.0"
     "@typescript-eslint/parser" "^5.12.0"
