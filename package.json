@@ -42,7 +42,7 @@
     "@jest/globals": "27.5.1",
     "@testing-library/react-hooks": "8.0.1",
     "@types/jest": "27.5.2",
-    "@types/node": "16.18.23",
+    "@types/node": "16.18.91",
     "@types/react": "18.0.25",
     "eslint": "8.25.0",
     "jest": "27.5.1",
