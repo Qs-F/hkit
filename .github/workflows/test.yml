@@ -19,12 +19,12 @@ jobs:
         working-directory: ./
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v3.7.0
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v3.9.1
         with:
-          node-version: '16'
+          node-version: '16.20.2'
 
       - name: Get dependencies
         run: |
@@ -47,12 +47,12 @@ jobs:
         working-directory: ./
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v3.7.0
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v3.9.1
         with:
-          node-version: '16'
+          node-version: '16.20.2'
 
       - name: Get dependencies
         run: |
