@@ -38,7 +38,7 @@
     "react": "^17.0.2 || ^18.0.0"
   },
   "devDependencies": {
-    "@de-liker/drts": "0.1.15",
+    "@de-liker/drts": "0.1.19",
     "@jest/globals": "27.5.1",
     "@testing-library/react-hooks": "8.0.1",
     "@types/jest": "27.5.2",
